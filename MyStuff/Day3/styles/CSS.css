@@ -1,0 +1,60 @@
+:root{
+    --base: #ff0000;
+    --spacing: 1em;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur))
+}
+
+.hl{
+    color: var(--base);
+}
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: auto;
+    height: auto;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: darkblue;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    font-size: 1rem;
+    margin: 1.5em .5em 1em .5em;
+}
+
+header h2{
+    font-size: 5rem;
+    color: white;
+}
+
+main{
+    text-align: center;
+    font-size: 1rem;
+}
+
+main label{
+    font-size: 2.5rem;
+    color: rgb(233, 233, 233);
+    text-shadow: .5rem black;
+    font-weight: 50;
+}
+
+main img{
+    margin: 2em;
+    width: 50em;
+
+}
